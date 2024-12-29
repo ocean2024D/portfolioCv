@@ -12,17 +12,23 @@ import Form from '../assets/Form.png';
 import bistro from '../assets/bistro.png';
 import movie from '../assets/Movie.png';
 import food from '../assets/food.png';
+import verticalCaroussel from '../assets/verticalCaroussel.png';
 import todo from '../assets/todo.png';
+import parallax from '../assets/parallax.png';
 
 function SwiperComponent() {
   const slides = [
-    { src: movie, link: 'https://ocean2024d.github.io/tmdbSLider1/', alt: 'TMDB Slider' },
+    { src: parallax, link: 'https://ocean2024d.github.io/strechText/', alt: 'parallax Project' },
+     { src: movie, link: 'https://ocean2024d.github.io/tmdbSLider1/', alt: 'TMDB Slider' },
     { src: bistro, link: 'https://ocean2024d.github.io/Bistro-ThemeForest-Exercise/', alt: 'Bistro Theme' },
     { src: food, link: 'https://ocean2024d.github.io/food/', alt: 'Food Project' },
     { src: Stok, link: 'https://ocean2024d.github.io/stok/', alt: 'Stok Project' },
     { src: todo, link: 'https://ocean2024d.github.io/react-form/', alt: 'To-Do App' },
     { src: starWars, link: 'https://ocean2024d.github.io/starWars/', alt: 'Star Wars Project' },
-  ];
+    { src: verticalCaroussel, link: 'https://ocean2024d.github.io/verticalCarrouselGsap/', alt: 'verticalCarousselGsap Project' },
+    
+  ]
+  ;
 
   return (
     <div className="swiper-container">

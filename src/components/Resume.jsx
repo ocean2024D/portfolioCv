@@ -79,7 +79,7 @@ function Resume() {
               <li>Français : Avancé</li>
               <li>Turc : Langue maternelle</li>
               <li>Anglais : Intermédiaire</li>
-              <li>Néerlandais : Pré-intermédiaire</li>
+              <li>Néerlandais : Notions</li>
             </ul>
           </div>
 
